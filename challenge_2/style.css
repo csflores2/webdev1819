@@ -1,6 +1,10 @@
-h1 {text-align: center; background-color: #FF0033}
-img {}
-div {background-color: black;}
-
-
-
+h1 {text-align: center; font-family: fantasy; color: black; font-size: 400%}
+body {font-family: fantasy; margin: 0; background: #ff3333;}
+img {border: 3px solid #000; border-radius: 0px; padding: 1px;}
+h2 {color: black; font-size: 200%;}
+li {color: black; font-size: 150%;}
+section {background-color: white;}
+h3 { color: black; font-size: 200%;}
+table, tr, td {border: 2px solid black;}
+th, tr, td {color: black; font-size: 100%}
+td {text-align: center;}
