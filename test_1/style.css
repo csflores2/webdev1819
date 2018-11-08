@@ -1,0 +1,17 @@
+html {
+    font-family: helvetica;
+}
+h1 {
+    color: orange;
+}
+i {
+    color: red;
+}
+section {
+    border: dotted green 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.link {
+    text-decoration: none;
+}
