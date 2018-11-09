@@ -12,6 +12,23 @@ section {
     padding-left: 12px;
     padding-right: 12px;
 }
+span {
+    font-size: small;
+    text-decoration: line-through;
+}
+.bold {
+    font-weight: normal;
+}
 .link {
     text-decoration: none;
+}
+.main {
+    box-shadow: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 25px;
+}
+.penguin {
+    background-image: url(http://goo.gl/e2x4ZK);
+    background-repeat: no-repeat;
+    padding-bottom: 175px;
 }

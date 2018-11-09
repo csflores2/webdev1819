@@ -16,14 +16,14 @@
   <h1>
     This h1 should be orange
     <br>
-    <span>Make this line not bold, half the size, and with a line through it.</span>
+    <span class="bold">Make this line not bold, half the size, and with a line through it.</span>
     
   </h1>
 
   <h2>
     Put everything in Helvetica.
   </h2>
-  <section class="main">
+  <section class="main" style="background-color: lightblue;">
 
   
     <div class="feature">
@@ -31,10 +31,10 @@
     </div>
 
     <div>
-      <a href="http://google.com">Links shouldn't be underlined</a>
+      <a href="http://google.com" class="link">Links shouldn't be underlined</a>
     </div>
   
-    <p style="background-color: lightblue;">
+    <p>
       Every section should have a green 3px dotted border, except this one, which should have a light blue background color, and a box  shadow of 10px with rounded corners.
     </p>
   
@@ -47,18 +47,18 @@
   <section>
 
     <blockquote>
-        Most <mark>emphasis</mark> should have a yellow background, but
+        Most <mark><em>emphasis</em></mark> should have a yellow background, but
         not <em class="secondary">this one</em>.
   </blockquote>
-    <blockquote class="noindent">
+    <p>
         I definitely don't want this blockquote indented.
-    </blockquote>
+    </p>
     
     <p>
       This paragraph can stay as is.
     </p>
 </section>
-
+<br>
 <section>
   <h4>Changed the background of each of the following to a color described by the text</h4>
     <ul>
@@ -68,16 +68,16 @@
         <li class="grape" style="background-color: purple;">Grape</li>
     </ul>
 </section>
-  
+  <br>
 <section class="penguin">
     Put the penguin at 
 http://goo.gl/e2x4ZK in the background of this div. It should only appear once, not repeat. And the box should be tall enough to see the whole penguin.
 </section>
-
+<br>
 <section>
     <div class="inline">These five divs should be on one line without any extra spacing.</div>
 </section>
-
+<br>
 <section>
     <ol type="a">
         <li>Please make this list</li>
