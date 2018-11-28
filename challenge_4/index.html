@@ -9,6 +9,31 @@
 </head>
 <body>
     
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Class</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">History</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Foundation</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Press</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Summer</a>
+    </li>
+  </ul>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" style="font-family: serif" placeholder="Search">
+    <button class="btn btn-success" type="submit" style="font-family: serif">Search</button>
+  </form>
+</nav>
+    
 <div class="jumbotron text-center" >
   <h1>Gus Giordano Dance School</h1>
   <br>
@@ -32,7 +57,7 @@
   <div class="card">
     <img class="card-img-top" src="https://static1.squarespace.com/static/54ee2863e4b097161510757a/t/5b95505d575d1fa6884083e2/1536512123788/Amy+Headshot.jpg" style="width:100%">
     <div class="card-body: text-center">
-      <h4 class="card-title">Amy Giordano</h4>
+      <h4 class="card-title">Amy Paul Giordano</h4>
       <p class="card-text">Executive Director</p>
     </div>
   </div>
@@ -49,6 +74,36 @@
   </div>
  </div>
  </div>
+</div>
+
+<br>
+<div>
+  <h5>More Info</h5>
+  <p>For more information on the Gus Giordano Dance School Foundation, visit <a href="http://www.gusgiordanodance.com/" style="font-family:serif">http://www.gusgiordanodance.com/</a></p>
+  <p>To receive our news and more information, complete the form below:</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="firstname" style="font-family:serif; font-size: 20px">First Name:</label>
+      <input type="firstname" class="form-control" id="firstname" style="font-family:serif; font-size: 20px" placeholder="Enter first name" name="firstname">
+    </div>
+    <div class="form-group">
+      <label for="lastname" style="font-family:serif; font-size: 20px">Last Name:</label>
+      <input type="lastname" class="form-control" id="lastname" style="font-family:serif; font-size: 20px" placeholder="Enter last name" name="lastname">
+    </div>
+    <div class="form-group">
+      <label for="birthday" style="font-family:serif; font-size: 20px">Birthday:</label>
+      <input type="birthday" class="form-control" id="birthday" style="font-family:serif; font-size: 20px" placeholder="Enter date of birth" name="birthday">
+    </div>
+    <div class="form-group">
+      <label for="email" style="font-family:serif; font-size: 20px">Email:</label>
+      <input type="email" class="form-control" id="email" style="font-family:serif; font-size: 20px" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="number" style="font-family:serif; font-size: 20px">Phone number (optional):</label>
+      <input type="number" class="form-control" id="number" style="font-family:serif; font-size: 20px" placeholder="Enter phone #" name="number">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
   
 </body>

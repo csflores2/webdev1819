@@ -6,13 +6,25 @@ body {
 }
 .card {
     background-color: #cdcdcd;
+    border: 5px black solid;
 }
 h1 {
     font-size: 100px;
+    font-family: serif;
 }
 p {
     font-size: 20px;
+    font-family: serif;
 }
 h4 {
     font-size: 30px;
+    font-family: serif;
+}
+a {
+    font-family: serif;
+    color: white;
+}
+h5 {
+    font-size: 30px;
+    font-family: serif;
 }
