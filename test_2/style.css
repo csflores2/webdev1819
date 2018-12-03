@@ -1,0 +1,229 @@
+
+#box-container {
+    height: 225px;
+    display: flex;
+}
+  
+#box-1 {
+    background-color: grey;
+    width: 50px;
+    height: 50%;
+    border: solid;
+}
+
+#box-2 {
+    background-color: lightgrey;
+    width: 125px;
+    height: 50%;
+    border: solid;
+}
+
+#box-3 {
+    background-color: cyan;
+    width: 70px;
+    height: 50%;
+    border: solid;
+}
+
+#box-4 {
+    background-color: red;
+    width: 105px;
+    height: 50%;
+    border: solid;
+}
+
+#box-5 {
+    background-color: deeppink;
+    width: 80px;
+    height: 50%;
+    border: solid;
+}
+
+#box-6 {
+    background-color: turquoise;
+    width: 50px;
+    height: 50%;
+    border: solid;
+}
+
+#box-7 {
+    background-color: deepskyblue;
+    width: 55px;
+    height: 50%;
+    border: solid;
+}
+
+#box-8 {
+    background-color: greenyellow;
+    width: 70px;
+    height: 50%;
+    border: solid;
+}
+
+#box-9 {
+    background-color: lavender;
+    width: 90px;
+    height: 50%;
+    border: solid;
+}
+
+#box-10 {
+    background-color: indigo;
+    width: 10px;
+    height: 50%;
+    border: solid;
+}
+
+#box-11 {
+    background-color: purple;
+    width: 150px;
+    height: 50%;
+    border: solid;
+}
+
+#box-12 {
+    background-color: maroon;
+    width: 75px;
+    height: 50%;
+    border: solid;
+}
+
+#box-13 {
+    background-color: orange;
+    width: 25px;
+    height: 50%;
+    border: solid;
+}
+
+#box-14 {
+    background-color: magenta;
+    width: 95px;
+    height: 50%;
+    border: solid;
+}
+
+#box-15 {
+    background-color: lime;
+    width: 40px;
+    height: 50%;
+    border: solid;
+}
+
+#box-16 {
+    background-color: yellow;
+    width: 60px;
+    height: 50%;
+    border: solid;
+}
+
+#box-17 {
+    background-color: grey;
+    width: 50px;
+    height: 50%;
+    border: solid;
+}
+
+#box-18 {
+    background-color: lightgrey;
+    width: 125px;
+    height: 50%;
+    border: solid;
+}
+
+#box-19 {
+    background-color: cyan;
+    width: 70px;
+    height: 50%;
+    border: solid;
+}
+
+#box-20 {
+    background-color: red;
+    width: 105px;
+    height: 50%;
+    border: solid;
+}
+
+#box-21 {
+    background-color: deeppink;
+    width: 20px;
+    height: 50%;
+    border: solid;
+}
+
+#box-22 {
+    background-color: turquoise;
+    width: 50px;
+    height: 50%;
+    border: solid;
+}
+
+#box-23 {
+    background-color: deepskyblue;
+    width: 55px;
+    height: 50%;
+    border: solid;
+}
+
+#box-24 {
+    background-color: greenyellow;
+    width: 70px;
+    height: 50%;
+    border: solid;
+}
+
+#box-25{
+    background-color: lavender;
+    width: 90px;
+    height: 50%;
+    border: solid;
+}
+
+#box-26 {
+    background-color: indigo;
+    width: 10px;
+    height: 50%;
+    border: solid;
+}
+
+#box-27 {
+    background-color: purple;
+    width: 50px;
+    height: 50%;
+    border: solid;
+}
+
+#box-28 {
+    background-color: maroon;
+    width: 75px;
+    height: 50%;
+    border: solid;
+}
+
+#box-29 {
+    background-color: orange;
+    width: 25px;
+    height: 50%;
+    border: solid;
+}
+
+#box-30 {
+    background-color: magenta;
+    width: 100px;
+    height: 50%;
+    border: solid;
+}
+
+#box-31 {
+    background-color: lime;
+    width: 40px;
+    height: 50%;
+    border: solid;
+}
+
+#box-32 {
+    background-color: yellow;
+    width: 60px;
+    height: 50%;
+    border: solid;
+}
