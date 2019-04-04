@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <canvas id="myCanvas" width="400px" height="400px" style="border: 2px solid black; background-color: black;" ></canvas>
+    <script>
+
+        
+        var canvas = document.querySelector("#myCanvas");
+        var context = canvas.getContext("2d");
+ 
+        var gradient = context.createLinearGradient(0, 150, 150, 0);
+        gradient.addColorStop("0", "cyan");
+        gradient.addColorStop("0.5", "magenta");
+        gradient.addColorStop("1.0", "red");
+        
+        context.font = "bold 250px Helvetica, Arial, sans-serif";
+        context.strokeStyle = gradient;
+        context.lineWidth = 25;
+        context.strokeText("CF", 30, 280);
+
+    </script>
+
+</body>
+</html>
