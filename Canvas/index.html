@@ -2,13 +2,39 @@
 <html>
 <body>
 
+<style> 
+canvas{
+  width: 400px;
+  height: 400px;
+  background: blue;
+  position: relative;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 3s;   
+  -webkit-animation-fill-mode: forwards; 
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+</style>
+
     <canvas id="myCanvas" width="400px" height="400px" style="border: 2px solid black; background-color: black;" ></canvas>
     <script>
 
         
         var canvas = document.querySelector("#myCanvas");
         var context = canvas.getContext("2d");
- 
+        
         var gradient = context.createLinearGradient(0, 150, 150, 0);
         gradient.addColorStop("0", "cyan");
         gradient.addColorStop("0.5", "magenta");
